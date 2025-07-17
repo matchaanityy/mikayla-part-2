@@ -1,7 +1,8 @@
 <?php
 session_start();
-if(isset($_SESSION['login'])){
+if (isset($_SESSION['login'])) {
   header('Location: login.php');
-}else{
+} else {
   header('Location: ./login.php');
+  // ini komentar
 }
